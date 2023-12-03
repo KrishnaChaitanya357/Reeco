@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -162,7 +162,7 @@ const ProductsList = () => {
             {productsList.map((item, index) => (
                 <TableRow key={item.index}>
                     <TableCell align="left">
-                        <img className='avacado' src={avacado} />  {item.productName}
+                        <img className='avacado' src={avacado} alt='Avacado'/>  {item.productName}
                     </TableCell>
                     <TableCell align="left">{item.brand}</TableCell>
                     <TableCell align="left">{item.price}</TableCell>
