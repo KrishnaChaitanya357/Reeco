@@ -1,0 +1,51 @@
+{
+    "productsData": [
+        {
+            "productName": "Avacado Hass",
+            "brand": "Hormel Black",
+            "price": "$50/5+1LB",
+            "quantity": "0x6+1LB",
+            "total": "$0",
+            "status":""
+        },
+        {
+            "productName": "Avacado Hass",
+            "brand": "Hormel Black",
+            "price": "$50/5+1LB",
+            "quantity": "15x6+1LB",
+            "total": "$9000.99",
+            "status":""
+        },
+        {
+            "productName": "Avacado Hass",
+            "brand": "Hormel Black",
+            "price": "$50/5+1LB",
+            "quantity": "0x6+1LB",
+            "total": "$0",
+            "status":""
+        },
+        {
+            "productName": "Avacado Hass",
+            "brand": "Hormel Black",
+            "price": "$50/5+1LB",
+            "quantity": "15x6+1LB",
+            "total": "$9000.99",
+            "status":""
+        },
+        {
+            "productName": "Avacado Hass",
+            "brand": "Hormel Black",
+            "price": "$50/5+1LB",
+            "quantity": "0x6+1LB",
+            "total": "$0",
+            "status":""
+        }
+    ],
+    "shippingData": {
+        "supplier": "East coast fruits & vegetables",
+        "shippingDate": "Thu,Feb 10",
+        "total": "$15,028.3",
+        "department": "300-444-678",
+        "status": "Awaiting your approval"
+    }
+}

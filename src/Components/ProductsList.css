@@ -1,0 +1,136 @@
+
+.navbar {
+    /* width: 100vw; */
+    background-color: #226422;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftNav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    color:white
+
+}
+.rightNav{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.brand{
+    font-family:cursive
+}
+
+/* //order detais */
+.orderDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid whitesmoke;
+    margin-bottom:1rem;
+}
+.leftBlock {
+    margin-left: 80px;
+    width: 20%;
+    display: flex;
+    align-items: flex-start; /* Aligns items to the top/left */
+    flex-direction: column;
+    padding: 5px;
+    row-gap: .5rem;
+    justify-content: flex-start; /* Aligns content to the top */
+}
+
+.bold{
+    font-size:1rem;
+    font-weight: bold;
+}
+.rightBlock{
+    margin-right: 80px;
+    /* align-items:flex-end */
+}
+
+.btn1{
+background-color: white;
+color: green;
+border-radius: 5px;
+margin-right: 5px;
+padding: 3px;
+
+}
+
+.btn2{
+    background-color: #226422;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+  
+}
+
+/* // shipping details */
+
+.ShippingDetails{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    margin: 1rem;
+}
+
+.shipping {
+    padding: .5rem;
+    width: 215px;
+    height: 70px;
+    text-align: left;
+    border: 2px solid rgb(238, 229, 229);
+}
+.mainBlock{
+    display: flex;
+    justify-content: center;
+}
+
+/* productsTable */
+
+.productsTable{
+    width: 90%;
+    border: 2px solid rgb(238, 229, 229);
+    /* padding: 2rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.avacado {
+    height: 30px;
+    width: 35px;
+}
+.status{
+    border: 2px solid black;
+    padding: 5px;
+   border-radius: 5px;
+}
+
+/* search bar */
+.searchBar{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+/* // input  */
+.input{
+    border-radius: 15px;
+    height: 25px;
+    width: 360px;
+}
+.btn{
+    background-color: white;
+    color: #083108;
+    border-radius: 15px;
+    border: 2px solid green;
+}
