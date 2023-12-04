@@ -55,6 +55,7 @@ const ProductsList = () => {
         console.log("index in missing", selectedOption, itemIndex);
         dispatch(missingData({ type: selectedOption, index: itemIndex }));
         setOpen(false);
+        setSelectedOption('');
     }
 
     
