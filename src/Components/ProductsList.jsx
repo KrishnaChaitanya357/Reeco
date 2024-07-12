@@ -82,7 +82,7 @@ const ProductsList = () => {
             {/* navbar */}
             <div className='navbar'>
                 <div className='leftNav'>
-                    <h4 className='brand'>REECO</h4>
+                    <h4 className='brand'>REECOO</h4>
                     <h5>Store</h5>
                     <h5>Order</h5>
                     <h5>Analytics</h5>
